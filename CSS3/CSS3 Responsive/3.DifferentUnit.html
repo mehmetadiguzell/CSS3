@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive -CSS Units</title>
+    <style>
+       /* div{
+            width: 40vw;
+            height: 50vh;
+            background: brown;
+        }*/
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .background{
+            background: url(./call.jpg) center center no-repeat;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            font-size: 10rem;
+            margin-bottom: 5rem;
+        }
+        p{
+            font-size: 2rem;
+            letter-spacing: 2px;
+        }
+        @media(max-width: 500px){
+            h1{
+                color: cornflowerblue;
+                font-size: 4rem;
+            }
+            p{
+                display: none;
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Responsive Unit
+        em,rem,%i,vw,vh
+
+        em->parante gore
+        ör: div 20px ise içinde span varsa spana 1.5em verirsek 20x1.5 olur
+
+        rem->html fontsize göre ayarlar
+
+        vw->sayfa genişliği
+        vh ->sayfa yükseliği
+    -->
+
+    <div class="background">
+        <h1>Welcome</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolores dolorum animi, nam sequi praesentium eligendi repudiandae dolor consequatur? Quae delectus ab aspernatur recusandae atque hic accusamus possimus molestias est a. Totam sapiente inventore quisquam, porro exercitationem odit iure eius, animi saepe temporibus iusto, et obcaecati. Ipsum vero maiores soluta accusamus veniam dolorum necessitatibus? Magnam enim, a corrupti consequatur officia fugit autem accusantium inventore ad doloremque libero, eaque dolorem laudantium vitae id mollitia laborum qui vero nobis. Molestiae hic aperiam molestias. Repudiandae maiores numquam repellat veritatis ut, iure dicta eligendi. Voluptatum quas culpa nihil, ex aspernatur aliquam nisi omnis explicabo!
+            
+        </p>
+
+    </div>
+
+</body>
+</html>
